@@ -147,7 +147,7 @@ header.video-description p {
   padding-bottom: 20px;
   padding-left: 100px;
   padding-right: 100px;
-  height: 750px;
+  min-height: 750px;
   /* background-color: rgba(23, 53, 89, 0.7); */
   background-color: #FFFFFF;
 }
@@ -156,7 +156,7 @@ header.video-description p {
   padding-bottom: 20px;
   padding-left: 100px;
   padding-right: 100px;
-  height: 750px;
+  min-height: 1000px;
   /* background-color: rgba(23, 53, 89, 0.7); */
   background-color: #E8E8E8;
 }
@@ -323,4 +323,6 @@ a.green:hover {
 .my-inner {
   width: 100%;
 }
-
+.embed-responsive-4by3 {
+  padding-bottom: 25% !important;
+}
